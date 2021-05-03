@@ -1,0 +1,12 @@
+server:
+  port: 9000
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+spring:
+  application:
+    name: eureka-single-node
+  config:
+    activate:
+      on-profile: default
